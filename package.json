@@ -1,0 +1,36 @@
+{
+  "name": "pinia-generate-store",
+  "version": "1.0.0",
+  "description": "Generate pinia stores with actions based on state.",
+  "author": "lbagic <luka.bagi@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/lbagic/pinia-generator#readme",
+  "bugs": {
+    "url": "https://github.com/lbagic/pinia-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbagic/pinia-generator.git"
+  },
+  "keywords": [
+    "pinia",
+    "pinia-plugin"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "pinia": "^2.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^6.2.0",
+    "typescript": "^4.7.4"
+  }
+}

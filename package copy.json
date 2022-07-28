@@ -1,0 +1,30 @@
+{
+  "name": "pinia-generate-store",
+  "version": "1.0.0",
+  "description": "Generate pinia stores with actions based on state.",
+  "author": "prazdevs <sachabouillez@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/prazdevs/pinia-plugin-persistedstate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prazdevs/pinia-plugin-persistedstate"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "pinia",
+    "pinia-plugin"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "pinia": "^2.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^6.2.0",
+    "typescript": "^4.7.4"
+  }
+}
